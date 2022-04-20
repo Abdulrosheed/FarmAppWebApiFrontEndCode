@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/Style/loginPage.css">
+    <script src="/Script/auth.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <span id="error-message" class="hidden"></span>
+    <div class="container">
+
+        <form action="" id="login-form">
+            <div class="form-container">
+                <div class="signin-text">
+                    <h1>Assign FarmInspector To Farm</h1>
+                </div>
+                <div id="email-input">
+                   
+                    <div class="label-input-2">
+                        <label for="email" class="label-tag">Farm Inspector Email</label>
+                        <div  class="input-tag input-margin" id="input-type-input">
+                            <select name="gender" id="gender-input" placeholder="Gender" class="input-display">
+                                <option value="">Farm Inspector Emails</option>
+                                <!-- <option value="Male">Male</option>
+                                <option value="Female">Female</option> -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="label-input-2">
+                        <label for="date" class="label-tag">Inspection Date</label>
+                        <div id="input-type-input">
+                            <input type="date" id="description-input" name="description" class="input-display">
+                           </div>
+                    </div>
+                  
+                    <div class="btn-container">
+                        <button id="btn-submit">Assign</button>
+                    </div>
+                   
+                  
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="/Script/assignFarmInspector.js"></script>
+   
+</body>
+</html>

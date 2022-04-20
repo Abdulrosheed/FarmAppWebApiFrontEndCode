@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/sidebar.css">
+    <script src="/Script/auth.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidenav">
+       
+        <a href="/Html/companyProfile.html">Profile</a>
+        <button class="dropdown-btn">Orders
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="/Html/getInitializeOrderByCompany.html">Initialized Order</a>
+          <a href="/Html/getPaidOrderByCompany.html">Cleared Order</a>
+          
+        </div>
+        <button class="dropdown-btn">Requests
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="/Html/placeRequest.html">Place Request</a>
+          <a href="/Html/getAllPendingRequestsByCompany.html">Pending Requests</a>
+          <a href="/Html/getAllMergedRequestByCompany.html">Merged Requests</a>
+          <a href="/Html/getAllFulfilledRequestByCompany.html">Fulfilled Requests</a>
+          
+          
+        </div>
+        
+       
+        <a href="/Html/updateCompanyProfile.html">Update Profile</a>
+        <a href="/Html/homePage.html">Home Page</a>
+          
+        
+    </div>
+    <div class="main-bar">
+            <h1 id="text"></h1>
+
+        </div>
+    <script src="/Script/sidebar.js"></script>
+    
+</body>
+</html>

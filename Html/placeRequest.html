@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/Style/placeRequest.css">
+    <link rel="stylesheet"  href="/Style/emailRegistrationPage.css">
+    <script src="/Script/auth.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <span id="error-message" class="hidden"></span>
+    <div class="container">
+       
+            <form action="" id="register-form" >
+                
+                <div class="general-info">
+                    <h1 class="info-text">Place Request</h1>
+                    <div class="input-tag-general-info">
+                        <div class="input-tag input-margin">
+                            
+                            <div>
+                                <select name="farmProduce" id="farm-produce-id" class="input-display"  >
+                                    <option value="" disabled selected>Farm Produce</option>
+                                 
+                                </select>
+                            </div>
+                        </div>
+                        <div  class="input-tag input-margin">
+                            <input type="number" placeholder="Quantity" id="quantity-input" name="username" class="input-display">
+                        </div>
+                        <div class="input-tag input-margin">
+                            
+                            <div>
+                                <select name="farmProduce" id="farm-grade-id" class="input-display"  >
+                                    <option value="" disabled selected>Grade</option>
+                                 
+                                </select>
+                            </div>
+                        </div>
+                        <div  class="input-tag input-margin">
+                            <input placeholder="Date Needed" class="input-display" type="text" onfocus="(this.type='month')" id="date">
+                        </div>
+                       
+                      
+
+
+                        <div class="btn-container">
+                            <button id="btn-submit">Place Request</button>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+              
+            </form>
+           
+           
+    </div>
+    <script src="/Script/placeRequest.js"></script>
+  
+  
+</body>
+</html>

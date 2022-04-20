@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/Style/farmerRegistrationPage.css">
+    <script src="/Script/auth.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <span id="error-message" class="hidden"></span>
+    <div class="container">
+       
+            <form action="" id="register-form" enctype="multipart/form-data">
+                
+                <div class="general-info">
+                    <h1 class="info-text">Farm RegistrationPage</h1>
+                    <div class="input-tag-general-info">
+                        <div  class="input-tag ">
+                            <input type="email" placeholder="Farm Name" id="farm-name-input" name="name" class="input-display">
+                        </div>
+                        <div  class="input-tag input-margin">
+                            <input type="number" placeholder="Land Size" id="land-size-input" name="landsize" class="input-display">
+                        </div>
+                        <div  class="input-tag  input-margin">
+                            <select name="country" id="country-select-tag" placeholder="Farm Produces" class="input-display">
+                                <option value="">--Select Country--</option>
+
+                            </select>
+                        </div>
+                        <div  class="input-tag  input-margin">
+                            <select name="state" id="state-select-tag" placeholder="Farm Produces" class="input-display">
+                                <option value="">--Select State--</option>
+        
+
+                            </select>
+                        </div>
+
+                        <div  class="input-tag  input-margin">
+                            <select name="localGovernment" id="local-government-select-tag" placeholder="Farm Produces" class="input-display">
+                                <option value="">--Select City--</option>
+        
+
+                            </select>
+                        </div>
+                        <div  class="input-tag  input-margin">
+                            <select name="farmproduceids" id="farm-produce-ids" placeholder="Farm Produces" multiple >
+                                <option value="">FarmProduce</option>
+
+                            </select>
+                        </div>
+                        <div  class="input-tag  input-margin">
+                            <input type="file" placeholder="Farm Picture 1" id="farm-picture1-input" name="farm-picture1-input " class="input-display">
+                        </div>
+                        <div  class="input-tag  input-margin">
+                            <input type="file" placeholder="Farm Picture 2" id="farm-picture2-input" name="farm-picture2-input " class="input-display" >
+                        </div>
+
+
+                        <div class="btn-container">
+                            <button id="btn-submit">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <!-- <h1 class="contact-text">Farm Details</h1>
+                    <div class="input-tag-general-info">
+                        <div  class="input-tag-2 ">
+                            <input type="email" placeholder="Farm Name" id="farm-name-input" name="farm-name-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2 input-margin">
+                            <input type="number" placeholder="Land Size" id="land-size-input" name="land-size-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="text" placeholder="Farm Country" id="farm-country-input" name="farm-country-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="text" placeholder="Farm State" id="farm-state-input" name="farm-state-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="text" placeholder=" Farm Local Government" id="farm-local-government-input" name="farm-local-government-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <select name="farm-produce-ids" id="farm-produce-ids" placeholder="Farm Produces" multiple >
+                                <option value="">FarmProduce</option>
+
+                            </select>
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="file" placeholder="Farm Picture 1" id="farm-picture1-input" name="farm-picture1-input " class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="file" placeholder="Farm Picture 2" id="farm-picture2-input" name="farm-picture2-input " class="input-display-2" >
+                        </div>
+
+                      
+                    </div> -->
+                </div>
+              
+            </form>
+           
+           
+    </div>
+    <script src="/Script/farmRegistrationPage.js"></script>
+  
+  
+</body>
+</html>

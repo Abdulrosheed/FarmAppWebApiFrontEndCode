@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/Style/adminRegistrationPage.css">
+    <title>Document</title>
+</head>
+<body>
+    <span id="error-message" class="hidden"></span>
+    <div class="container">
+       
+            <form action="" id="form-tag" enctype="multipart/form-data">
+                
+                <div class="general-info">
+                    <h1 class="info-text">General Information</h1>
+                    <div class="input-tag-general-info">
+                        <div  class="input-tag">
+                            <input type="text" placeholder="First Name" id="first-name-input" name="firstname" class="input-display">
+                        </div>
+                        <div  class="input-tag input-margin">
+                            <input type="text" placeholder="Last Name" id="last-name-input" name="lastname" class="input-display">
+                        </div>
+                        <div  class="input-tag input-margin">
+                            <input type="text" placeholder="User Name" id="user-name-input" name="username" class="input-display">
+                        </div>
+                        <!-- <div  class="input-tag input-margin">
+                            <input type="password" placeholder="PassWord" id="pass-word-input" name="pass-word-input " class="input-display">
+                        </div> -->
+                        <div  class="input-tag input-margin">
+                            <select name="gender" id="gender-input" placeholder="Gender" class="input-display">
+                                <option value="">Gender</option>
+                                <!-- <option value="Male">Male</option>
+                                <option value="Female">Female</option> -->
+                            </select>
+                        </div>
+
+                        <div class="btn-container">
+                            <button id="btn-submit">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <h1 class="contact-text">Contact Details</h1>
+                    <div class="input-tag-general-info">
+                        <div  class="input-tag-2 ">
+                            <input type="email" placeholder="Email" id="email-input" name="email" class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2 input-margin">
+                            <input type="text" placeholder="Phone Number" id="phone-number-input" name="phonenumber" class="input-display-2">
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <select name="country" id="country-select-tag" placeholder="Farm Produces" class="input-display-2">
+                                <option value="">--Select Country--</option>
+
+                            </select>
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <select name="state" id="state-select-tag" placeholder="Farm Produces" class="input-display-2">
+                                <option value="">--Select State--</option>
+        
+
+                            </select>
+                        </div>
+
+                        <div  class="input-tag-2  input-margin">
+                            <select name="localgovernment" id="local-government-select-tag" placeholder="Farm Produces" class="input-display-2">
+                                <option value="">--Select City--</option>
+        
+
+                            </select>
+                        </div>
+                        <div  class="input-tag-2  input-margin">
+                            <input type="file" placeholder="Picture" id="farm-picture2-input" name="picture-input" class="input-display" >
+                        </div>
+
+                      
+                    </div>
+                </div>
+              
+            </form>
+           
+           
+    </div>
+    <script src="/Script/farmInspectorRegistrationPage.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,41 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.side-bar
+{
+    display: flex;
+    height: 150vh;
+    width: 12vw;
+    background-color: rgb(238, 50, 50);
+    flex-direction: column;
+}
+.nav-bar
+{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.active
+{
+    text-decoration: none;
+    color: white;
+}
+.main-bar
+{
+    background-color: beige;
+}
+.text
+{
+    border: 50px solid rgb(238, 50, 50);
+    width: 80vw;
+    background-color: rgb(238, 50, 50);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-left: 1px;
+}
+

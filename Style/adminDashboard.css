@@ -1,0 +1,48 @@
+.container
+{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+.side-bar
+{
+    display: flex;
+    height: 150vh;
+    width: 12vw;
+    background-color:rgb(240, 224, 224);
+    flex-direction: column;
+}
+.nav-bar
+{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.active
+{
+    text-decoration: none;
+}
+.main-bar
+{
+    background-color: rgb(240, 224, 224);
+}
+.side-bar
+{
+    display: flex;
+    height: 150vh;
+    width: 12vw;
+    background-color: rgb(240, 224, 224);
+    flex-direction: column;
+}
+.text
+{
+    border: 50px solid  #67cc74;
+    width: 80vw;
+    background-color:rgb(240, 224, 224);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-left: 1px;
+}
+

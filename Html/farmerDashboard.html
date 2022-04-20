@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/sidebar.css">
+    <script src="/Script/auth.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidenav">
+       
+        <a href="/Html/farmerProfile.html">Profile</a>
+        <button class="dropdown-btn">Farms
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="/Html/getAllApprovedFarmByFarmer.html">Approved Farms</a>
+          <a href="/Html/getDeclinedFarmByFarmer.html">Declined Farms</a>
+          
+        </div>
+        <button class="dropdown-btn">Farm Products
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="/Html/getFarmProductByFarmer.html">All FarmProducts</a>
+            <a href="/Html/getToBeUpdatedFarmProductByFarmer.html">To Be Updated FarmProduct</a>
+            <a href="/Html/getSoldFarmProductByFarmer.html">All Sold Product</a>
+            <a href="/Html/getNotSoldFarmProductByFarmer.html">Available product</a>
+          
+          </div>
+          <a href="/Html/updateFarmerProfile.html">Update Profile</a>
+          <a href="/Html/farmRegistrationPage.html">Register Farm</a>
+          <a href="/Html/homePage.html">Home Page</a>
+          
+        
+    </div>
+    <div class="main-bar">
+            <h1 id="text"></h1>
+
+        </div>
+    <script src="/Script/sidebar.js"></script>
+
+</body>
+</html>
